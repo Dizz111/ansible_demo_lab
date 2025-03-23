@@ -4,6 +4,16 @@
   become: true
   tasks:
 
+
+  - name: update repository index
+    apt:
+      updtae_cache: yes
+
+
   - name: install apache2 package
     apt:
-      name: apache2  
+      name: apache2
+
+  - name: add php supportfor apache
+    apt:
+      name: libapache2-mod-php
