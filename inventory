@@ -12,4 +12,4 @@ ansible_password=pen123!
 10.9.23.217 ansible_ssh_pass='pen123!' ansible_ssh_user='root'
 
 [vcsa]
-10.9.20.75
+10.9.20.75 ansible_ssh_pass='Pensando0$' ansible_ssh_user='administrator@penlabs.net'
